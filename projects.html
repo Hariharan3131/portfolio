@@ -1,0 +1,126 @@
+
+<!-- ============================================
+FILE: projects.html
+============================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">My Projects</h1>
+            <p class="lead">A collection of my recent work and personal projects</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid py-5">
+        <div class="container">
+            <div class="row g-4" id="projectsContainer">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="web">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="img/bg3.jpeg" class="card-img-top" alt="E-Commerce Platform">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Ben10</h5>
+                            <p class="card-text flex-grow-1">A full-featured online shopping platform with secure payment processing, product management, and user reviews.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-primary me-1">CSS3</span>
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-primary btn-sm flex-fill">Live Demo</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="web">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Task Manager">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Poultry Monitoring</h5>
+                            <p class="card-text flex-grow-1">Prevents heat stress by keeping temperatures below critical levels (usually 35°C for chicks).</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Iot</span>
+                                <span class="badge bg-primary me-1">FireBase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 project-item" data-category="web">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="img/Ecosaver.png" class="card-img-top" alt="Weather Dashboard">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Ecosaver</h5>
+                            <p class="card-text flex-grow-1">Designed for comprehensive water and electricity resource management, offering users a unified platform to monitor, analyze, and optimize their consumption in real time.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Iot</span>
+                                <span class="badge bg-primary me-1">API</span>
+                                <span class="badge bg-primary me-1">LoRa</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="https://ieeexplore.ieee.org/document/10776938" class="btn btn-primary btn-sm flex-fill">Live Demo</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="mailto:hariharancse22@gmail.com" class="text-white mx-3"><i class="fab fa-envelope fa-2x" ></i></a>
+                <a href="https://www.linkedin.com/in/hariharan-b-ba0976268" class="text-white mx-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/hari_patron?igsh=MWQ4bWN0eTBnMTlmaA==" class="text-white mx-3"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
